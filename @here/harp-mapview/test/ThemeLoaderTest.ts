@@ -306,6 +306,48 @@ describe("ThemeLoader", function () {
             assert.deepEqual(result.definitions!.roadColor, { type: "color", value: "#fff" });
             assert.deepEqual(result.definitions!.waterColor, { type: "color", value: "#0f0" });
         });
+        it("supports multiple inheritance with textures", async function () {
+            const inheritedTheme: Theme = {
+                extends: [
+                    {
+                        images: {
+                            foo: {
+                                url: "icons://maki_icons.png",
+                                preload: true
+                            }
+                        },
+                        imageTextures: [
+                            {
+                                name: "foo",
+                                image: "foo"
+                            }
+                        ]
+                    },
+                    {
+                        images: {
+                            bar: {
+                                url: "icons://maki_icons.png",
+                                preload: true
+                            }
+                        },
+                        imageTextures: [
+                            {
+                                name: "bar",
+                                image: "bar"
+                            }
+                        ]
+                    }
+                ]
+            };
+
+            const result = await ThemeLoader.load(inheritedTheme);
+            assert.exists(result.images?.foo);
+            assert.exists(result.images?.bar);
+            assert.deepEqual(result.imageTextures?.map(imageTexture => imageTexture.name).sort(), [
+                "bar",
+                "foo"
+            ]);
+        });
     });
 
     describe("#load support for inheritance and optional reference resolving", function () {
