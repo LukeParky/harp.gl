@@ -49,6 +49,7 @@ export function registerTileObject(
     const userData = object.userData;
     userData.tileKey = tile.tileKey;
     userData.dataSource = tile.dataSource.name;
+    userData.dataSourceOrder = tile.dataSource.dataSourceOrder;
 
     userData.kind = kind;
 
