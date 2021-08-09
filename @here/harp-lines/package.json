@@ -27,9 +27,9 @@
         "@here/harp-materials": "^0.26.0"
     },
     "devDependencies": {
-        "@here/harp-geoutils": "^0.26.0",
-        "@here/harp-test-utils": "^0.26.0",
-        "@here/harp-utils": "^0.26.0",
+        "@here/harp-geoutils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
+        "@here/harp-test-utils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
+        "@here/harp-utils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@types/chai": "^4.2.14",
         "@types/mocha": "^8.2.0",
         "@types/three": "^0.129.0",

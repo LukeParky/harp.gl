@@ -24,11 +24,11 @@
     },
     "license": "Apache-2.0",
     "dependencies": {
-        "@here/harp-utils": "^0.26.0",
+        "@here/harp-utils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@here/harp-vectortile-datasource": "^0.26.0"
     },
     "devDependencies": {
-        "@here/harp-test-utils": "^0.26.0",
+        "@here/harp-test-utils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@types/chai": "^4.2.14",
         "@types/mocha": "^8.2.0",
         "@types/node": "^14.0.5",

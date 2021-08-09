@@ -22,9 +22,9 @@
     },
     "license": "Apache-2.0",
     "dependencies": {
-        "@here/harp-geoutils": "^0.26.0",
-        "@here/harp-lrucache": "^0.26.0",
-        "@here/harp-mapview": "^0.26.0",
+        "@here/harp-geoutils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
+        "@here/harp-lrucache": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
+        "@here/harp-mapview": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@here/harp-text-canvas": "^0.26.0"
     },
     "devDependencies": {

@@ -27,7 +27,7 @@
         "theme"
     ],
     "dependencies": {
-        "@here/harp-mapview": "^0.26.0",
+        "@here/harp-mapview": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "commander": "^5.1.0",
         "glob": "^7.1.4",
         "path": "^0.12.7"

@@ -30,8 +30,8 @@
         "@here/harp-vectortile-datasource": "^0.26.0"
     },
     "devDependencies": {
-        "@here/harp-fetch": "^0.26.0",
-        "@here/harp-test-utils": "^0.26.0",
+        "@here/harp-fetch": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
+        "@here/harp-test-utils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@types/chai": "^4.2.14",
         "@types/earcut": "^2.1.1",
         "@types/long": "^4.0.1",

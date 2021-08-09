@@ -42,7 +42,7 @@
         "three": "^0.129.0"
     },
     "dependencies": {
-        "@here/harp-geoutils": "^0.26.0",
+        "@here/harp-geoutils": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@here/harp-utils": "^0.26.0"
     },
     "publishConfig": {

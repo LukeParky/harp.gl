@@ -20,7 +20,7 @@
     },
     "license": "Apache-2.0",
     "dependencies": {
-        "@here/harp-datasource-protocol": "^0.26.0",
+        "@here/harp-datasource-protocol": "https://gitpkg.now.sh/LukeParky/harp.gl/@here/harp-mapview?change-circle-technique-size-to-metres",
         "@here/harp-utils": "^0.26.0"
     },
     "devDependencies": {
